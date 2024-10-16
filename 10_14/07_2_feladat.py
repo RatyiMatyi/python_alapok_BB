@@ -29,8 +29,10 @@ O . . . . . O
 . O . . . O .
 O . . . . . O """
 
-for i in range(7):
-    for j in range(7):
+
+szam = int(input("Adj meg egy számot!"))
+for i in range(szam):
+    for j in range(szam):
         if j == i:
             print("O", end=" ")
         elif j + i == 6:
